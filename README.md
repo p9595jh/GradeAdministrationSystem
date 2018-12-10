@@ -1,2 +1,4 @@
-# GradeAdministrationSystem
-Hansung Univ. Web Framework 1 Second Assignment
+# 학점 관리 시스템
+## 한성대학교 정보시스템공학과 1494054 박재훈 - 웹 프레임워크1 과제2
+스프링 프레임워크를 이용해서 학점을 관리하는 웹 어플리케이션입니다.
+MySQL을 스프링 JDBC를 통해 연동시켜 로그인 인증 후 학점을 조회, 입력할 수 있습니다.
