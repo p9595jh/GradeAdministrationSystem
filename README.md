@@ -11,7 +11,7 @@ student 데이터베이스 내에 users, authorities, subjects 3개의 테이블
 * subjects: year, term, code, name, division, grade (PK: year, term, code)  
   
 #### Model
-모델은 Subject와 TermGrade가 있습니다. Subject는 subjects 테이블의 컬럼들을 값으로 갖고 있고, TermGrade는 year, term, grade를 값으로 갖고 있습니다. TermGrade에는 '학년/학기별 이수 총 학점'에 해당하는 값이 들어있습니다. 
+모델은 Subject와 TermGrade가 있습니다. Subject는 subjects 테이블의 컬럼들을 값으로 갖고 있고, TermGrade는 year, term, grade를 값으로 갖고 있습니다. TermGrade에는 '학년/학기별 이수 총 학점'에 해당하는 값이 들어있습니다.  
 ('select year, term, sum(grade) as grade from subjects group by year, term' 쿼리 사용)  
   
 #### View
