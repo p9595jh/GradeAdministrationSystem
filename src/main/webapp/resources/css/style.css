@@ -1,0 +1,236 @@
+@charset "UTF-8";
+body {
+	background-color: rgb(247,250,255);
+	margin: 0;
+}
+
+header {
+	margin: 20px;
+	height: 70px;
+}
+
+header div {
+	font-size: 70px;
+	text-align: left;
+	margin: auto;
+	width: 1000px;
+}
+
+#nav {
+	height: 60px;
+	background-color: rgb(43,175,255);
+	border-bottom-style: solid;
+	border-color: rgb(0,43,51);
+	border-width: 2px;
+}
+
+nav {
+	width: 1000px;
+	height: 60px;
+	margin-top: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+
+nav a {
+	width: 200px;
+	height: 60px;
+	position: relative;
+	float: left;
+	font: bold 15px/60px Malgun Gothic, Malgun Gothic;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: white;
+	background-color: rgb(0,43,51);
+}
+
+hr {
+	border: 1px solid rgb(0,91,159);
+}
+
+button, input[type=submit], input[type=button] {
+	cursor: pointer;
+}
+
+#content {
+	margin: auto;
+	background-color: rgb(247,250,255);
+	padding: 15px;
+}
+
+#container {
+	width: 300px;
+	float: left;
+}
+
+#topscroll {
+	width: 40px;
+	height: 20px;
+	position: fixed;
+	right: 10px;
+	bottom: 70px;
+	background-color: white;
+	border: 2px solid black;
+	text-align: center;
+	vertical-align: center;
+}
+
+.regtable {
+	/*margin: auto;*/
+	margin-left: 25%;
+	width: 450px;
+	height: 500px;
+}
+
+.regtable td {
+	text-align: left;
+}
+
+.regerr {
+	color: red;
+	font-size: 12px;
+}
+
+.date, .reg {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.date {
+	width: 700px;
+	padding: 15px;
+	font-size: 40px;
+	height: 100px;
+}
+
+.reg {
+	margin: auto;
+	width: 700px;
+	padding: 50px;
+}
+
+.reginput {
+	width: 200px;
+	height: 20px;
+}
+
+.box {
+	padding: 20px;
+	margin: auto;
+	width: 1000px;
+}
+
+.link {
+	text-decoration: none;
+	font-size: 12px;
+	color: black;
+}
+
+.board {
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+}
+
+.loginbox {
+	border: 1px solid black;
+	padding: 20px;
+	width: 190px;
+	float: right;
+	/* margin-right: 300px; */
+}
+
+.admintable tr th, .qtable tr th {
+	font-weight: normal;
+	background-color: rgb(0,91,159);
+	color: white;
+}
+
+.admintable tr {
+	height: 40px;
+}
+
+.qtable tr {
+	height: 30px;
+}
+
+.admintable tr, .admintable tr td, .qtable tr, .qtable tr td {
+	border: 1px solid rgb(0,91,159);
+}
+
+.admintable {
+	width: 700px;
+}
+
+.qtable {
+	width: 650px;
+	font-size: 12px;
+}
+
+.admintable, .qtable {
+	text-align: center;
+	margin: auto;
+	border: 1px solid rgb(0,91,159);
+	border-collapse: collapse;
+}
+
+.del {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.tb, .tb2 {
+	width: 800px;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.tb {
+	font-size: 12px;
+}
+
+.tb tr, .tb2 tr {
+	border-top: 1px solid rgb(0,91,159);
+	border-bottom: 1px solid rgb(0,91,159);
+	height: 30px;
+}
+
+.tb tr td {
+	text-align: center;
+}
+
+.tb2 tr td {
+	text-align: left;
+}
+
+.tblink {
+	color: black;
+	text-decoration: none;
+}
+
+.chkbox {
+	width: 25px;
+	height: 25px;
+}
+
+.trhover:hover {
+	background-color: rgb(206,238,255);
+}
+
+.startdiv {
+	font-size: 12px;
+	margin-left: 20px;
+	line-height: 190%;
+}
+
+.contentView {
+	font-size: 16px;
+	font-family: consolas;
+	white-space: pre-wrap;
+	/* vertical-align: top; */
+}
